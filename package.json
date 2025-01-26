@@ -1,0 +1,15 @@
+{
+  "name": "arlo-health-take-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run dev --prefix frontend\" \"nodemon --inspect index.js --watch backend --exec 'node backend/index.js'\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

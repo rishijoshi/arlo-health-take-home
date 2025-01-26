@@ -1,0 +1,331 @@
+[{
+    "header": "Arlo Group Information & Disclosure Statement",
+    "id": "arloGroupInformation",
+    "sections": [
+        {
+            "id": "prospectiveContractHolder",
+            "label": "Prospective Contract Holder (Group Legal Name):",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter the group legal name"
+        },
+        {
+            "id": "groupDisclosure",
+            "subHeader": "A. Group Disclosure",
+            "text": "Do you, as the Prospective Contract holder or Advisor, know of any Covered Employee, Covered Dependent, participating COBRA beneficiary, retiree, or person(s) to be covered under the Prospective Contractholder’s benefit plan who:",
+            "questions": [
+                {
+                    "id": "ongoingClaims",
+                    "label": "Has ongoing claims that have exceeded $20,000 during the last 12 months or have the potential to exceed $20,000 within the next 12 months?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "hospitalized",
+                    "label": "Is currently hospitalized or institution confined or expected to be confined within 90 days of the Effective Date?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "caseManagement",
+                    "label": "Is currently under case management?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "disabled",
+                    "label": "Is disabled as of the date of this disclosure?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "cobraParticipants",
+                    "label": "Are either COBRA participants, or are eligible to be COBRA participants?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "medications",
+                    "label": "Is currently taking, has had prescribed, or recommended any medications or injections exceeding $5000/month?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "cellGeneTherapy",
+                    "label": "Is currently getting or has been recommended to get any cell or gene therapy?",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "medicalApplications",
+                    "label": "Have your employees filled out individual medical applications for any carrier in the last 6 months? (if yes, please attach to form)",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "claimsExperience",
+                    "label": "Is claims experience available from the current year’s plan (if yes, please attach to form)",
+                    "type": "radio",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "id": "highRiskDisclosure",
+            "subHeader": "B. High-Risk Diagnosis List",
+            "text": "Do you know of any Covered Employee or Dependent or potential Plan Participant who, within the last 24 months, was treated for or diagnosed with a potentially high-risk diagnosis, such as those on the following list?",
+            "questions": [
+                {
+                    "id": "cancer",
+                    "label": "Cancer, Leukemia, Multiple Myeloma or Tumor(s)",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "heartDisorder",
+                    "label": "Heart Attack or other Heart/Vascular Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "bloodDisorder",
+                    "label": "Hemophilia or Other Blood Clotting Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "anemia",
+                    "label": "Aplastic Anemia or Sickle Cell Anemia",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "thrombocytopenia",
+                    "label": "Thrombocytopenia, Agranulocytosis or other Anemia",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "stroke",
+                    "label": "Stroke or other Cerebrovascular Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "respiratoryDisorder",
+                    "label": "Cystic Fibrosis or other Respiratory Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "emphysema",
+                    "label": "Emphysema, COPD or Chronic Bronchitis",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "brainDisorder",
+                    "label": "Parkinson’s Disease, Cerebral Palsy or Epilepsy",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "otherBrainDisorder",
+                    "label": "Other Brain Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "multipleSclerosis",
+                    "label": "Multiple Sclerosis or Guillain-Barre’ Syndrome",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "majorTrauma",
+                    "label": "Major Trauma or Burn",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "hivAids",
+                    "label": "HIV/AIDS or other Immune System Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "autoImmuneDisorder",
+                    "label": "Lupus, Scleroderma or other Auto Immune Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "kidneyDisorder",
+                    "label": "Pancreas, Kidney Disorder, or Dialysis",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "liverDisorder",
+                    "label": "Cirrhosis, Hepatitis or other Liver Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "organTransplant",
+                    "label": "Recent or planned Organ Transplant (Liver, Kidney, Lung, Heart, etc.)",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "glandDisorder",
+                    "label": "Pituitary, Adrenal or other Gland Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "intestinalDisorder",
+                    "label": "Crohn’s, Diverticulitis or other Intestinal Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "spineDisorder",
+                    "label": "Back or Spine Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "boneJointDisorder",
+                    "label": "Arthritis, Rheumatism or other Bone/Joint Disorder",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "geneticDisorder",
+                    "label": "Genetic or Congenital Disorder or other Birth Defect",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "prematureNewborn",
+                    "label": "Premature Newborn",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "mentalDisorder",
+                    "label": "Mental/Nervous Disorder or Alcohol/Substance Abuse",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "respiratorDependence",
+                    "label": "Respirator Dependence",
+                    "type": "radio",
+                    "required": true
+                },
+                {
+                    "id": "otherHighRisk",
+                    "label": "Other High Risk (not listed here)",
+                    "type": "radio",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "id": "optionalDisclosure",
+            "text": "If you answered Yes to any of the questions in sections B or C, please provide us with the information requested in the table below.",
+            "tableColumns": ["First Name", "Last Name", "DOB", "ZIP", "Sex", "Diagnosis/ Drug(s)"]
+        },
+        {
+            "id": "signatures",
+            "subHeader": "C. Signatures",
+            "signatureDisclosure": [
+                "HIPAA Privacy permits the release of Protected Health Information (PHI) for the purpose of evaluatin and accepting risk associated with the Prospective Contractholder as a part of “health care operations”. Railway Health Inc. dba Arlo (Arlo) shall use the information provided solely for the purpose of evaluating the acceptability of this risk and shall not disclose any PHI collected except in performing this risk evaluation.", 
+                "Arlo will rely upon the information provided on this form, which will become part of the Application for stop-loss coverage. The purpose of the form is to allow Arlo to take underwriting action on all known risks in the categories listed in section C above. It is the Prospective Contractholder’s responsibility, either directly or through their designated representative, to accurately report all claims known as of the date of this disclosure by making a thorough review of all applicable records. Such records shall include historical claims reports, disability records, and current information from administrators, insurers, utilization management companies, managed care companies, and any Agent/Broker of the Plan Sponsor.",
+                "Upon receipt of the completed disclosure, Arlo will assess all data, new and previously reported, and will inform the producer in writing of any changes to the rates, factors, or terms of coverage. Arlo reserves the right to rescind the proposal in its entirety based upon a review of all information submitted during the proposal process. If the Prospective Contractholder fails to disclose any risk known to fall into one of the categories listed above, either intentionally or because a thorough review of all records was not conducted, then Arlo and its carrier will have no liability for claims on the risk not disclosed."
+            ],
+            "signatureBoldSubtext": "As the Prospective Contractholder, Administrator, or Agent, I hereby warrant and represent that the above is complete and accurate and that nothing has been omitted to my knowledge. I also acknowledge that any individual known to me, not appropriately disclosed to and approved by Arlo, might be excluded from Stop Loss Insurance."
+        },
+        {
+            "id": "eSignatureBlock",
+            "blocks": [
+                {
+                    "type": "contractHolder",
+                    "fields": [
+                        {
+                            "id": "contractHolderLegalName",
+                            "label": "Contract Holder Legal Name",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "id": "contractHolderSignature",
+                            "label": "Signature",
+                            "type": "signature",
+                            "required": true,
+                            "disabled": false
+                        },
+                        {
+                            "id": "contractHolderName",
+                            "label": "Name",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "id": "contractHolderTitle",
+                            "label": "Title",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "id": "contractHolderDate",
+                            "label": "Date",
+                            "type": "date",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "type": "agency",
+                    "fields": [
+                        {
+                            "id": "agencyName",
+                            "label": "Agency Name",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "id": "agencySignature",
+                            "label": "Signature",
+                            "type": "signature",
+                            "required": true,
+                            "disabled": false
+                        },
+                        {
+                            "id": "agentName",
+                            "label": "Name",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "id": "agencyTitle",
+                            "label": "Title",
+                            "type": "text",
+                            "required": true
+                        },
+                        {   
+                            "id": "agencyDate",
+                            "label": "Date",
+                            "type": "date",
+                            "required": true
+                        }
+                    ]
+                }
+            ]
+        }
+    
+            ]
+    }
+]
